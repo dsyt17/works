@@ -8,7 +8,7 @@ t = ['жарко', 'тепло', 'прохладно']
 wet = ['высокая', 'нормальная']
 wind = ['умененный', 'сильный']
 status = ['', 'НЕТ', 'ДА']
-counter = 1;
+counter = 1
 
 for y in (1, 2):
 
@@ -35,9 +35,9 @@ for y in (1, 2):
 
                     result = (p_x1_y * p_x2_y * p_x3_y * p_x4_y * p_y) / (p_x1 * p_x2 * p_x3 * p_x4)
 
-                    if result == 0:
-                        result = ((p_x1_y + 1) * (p_x2_y + 1) * (p_x3_y + 1) * (p_x4_y + 1) * p_y) / (
-                                (p_x1 + 1) * (p_x2 + 1) * (p_x3 + 1) * (p_x4 + 1))
+                    # if result == 0:
+                    #   result = ((p_x1_y + 1) * (p_x2_y + 1) * (p_x3_y + 1) * (p_x4_y + 1) * p_y) / (
+                    #   (p_x1 + 1) * (p_x2 + 1) * (p_x3 + 1) * (p_x4 + 1))
 
                     if result > 1:
                         result = 1
