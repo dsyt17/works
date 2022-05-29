@@ -63,5 +63,5 @@ s_fit = [sum(s[i]) for i  in range(len(s))]
 print("Сумма генов особей: ", s_fit)
 
 #ранжированный отбор
-for i in range(20):
+#for i in range(20):
     
