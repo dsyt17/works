@@ -1,7 +1,9 @@
 import random as rnd
+import itertools as it
 
 genes = 30 #число генов
 population = 20 #число особей
+num_selected = 20 #оставить столько особей
 
 #создаем особей
 s = [[rnd.randint(0,1) for i  in range(genes)] for j in range(population)]
@@ -16,11 +18,11 @@ p_mutation = rnd.uniform(0.1, 0.3)
 print("Вероятность мутации: {:.2f}".format(p_mutation))
 
 #выбираем случайные пары
-selected = [rnd.sample(s, 2) for i in range(0, 5)]
-print("Выбрано пар для скрещивания: ", len(selected))
+crossing = [rnd.sample(s, 2) for i in range(0, 5)]
+print("Выбрано пар для скрещивания: ", len(crossing))
 
 #скрещивание
-for pair in selected:
+for pair in crossing:
     l = rnd.randint(1, 29)
     s.append(pair[0][:l]+pair[1][l:])
     s.append(pair[1][:l]+pair[0][l:])
@@ -62,6 +64,31 @@ for p in range(20, 30):
 s_fit = [sum(s[i]) for i  in range(len(s))]
 print("Сумма генов особей: ", s_fit)
 
+ranks = []
+for i in range(1, (len(s_fit)+1)):
+    ranks.append(i)
+
+
+#s_fit_ranks = list(zip(s_fit, ranks))
+#print(s_fit_ranks)
+
+s_fit.sort()
+print("Сортированная сумма генов: ", len(s_fit), s_fit)
+
 #ранжированный отбор
-#for i in range(20):
-    
+doli = [i/sum(ranks) for i in range(1, (len(s_fit))+1)]
+selected = []
+acc = list(it.accumulate(doli))
+
+for j in range(num_selected):
+    rand = rnd.random()
+    for i in range(len(acc)):
+        if rand<=acc[i]:
+            selected.append(i)
+            #acc.remove(acc[i])            
+            acc[i] = 0
+            break
+
+print(len(acc))
+selected.sort()
+print(len(selected), selected)
