@@ -1,0 +1,3 @@
+conda create -n your_environment_name
+conda env list
+conda activate your_environment_name
