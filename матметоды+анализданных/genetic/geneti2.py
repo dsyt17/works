@@ -31,8 +31,7 @@ print("Число особей после скрещивания: ", len(s))
 #функция дле генерации двух случайных индексов генов для замены
 def rand_genes():
     result = []
-    m1 = rnd.randint(0, 29)
-    m2 = rnd.randint(0, 29)
+    m1, m2 = rnd.randint(0, 29), rnd.randint(0, 29)
     while m2 == m1:
         m2 = rnd.randint(0, 29)
     result.append(m1)
@@ -42,23 +41,23 @@ def rand_genes():
 p_m = 0.2
 
 #мутация обменом
+count_m = 0
 for p in range(20, 30):
     rand_p = rnd.random()
     if p_m > rand_p:
         genes_to_swap = rand_genes()
-        temp_g1 = s[p][genes_to_swap[0]]
-        temp_g2 = s[p][genes_to_swap[1]]
+        temp_g1, temp_g2 = s[p][genes_to_swap[0]], s[p][genes_to_swap[1]]
 
         while temp_g2 == temp_g1:
             genes_to_swap = rand_genes()
-            temp_g1 = s[p][genes_to_swap[0]]
-            temp_g2 = s[p][genes_to_swap[1]]
+            temp_g1, temp_g2 = s[p][genes_to_swap[0]], s[p][genes_to_swap[1]]
 
         print("Для особи №{} меняем гены: ".format(p), genes_to_swap[0], genes_to_swap[1])
         print("Было:  ", s[p])
-        s[p][genes_to_swap[0]] = temp_g2
-        s[p][genes_to_swap[1]] = temp_g1
+        s[p][genes_to_swap[0]], s[p][genes_to_swap[1]] = temp_g2 ,temp_g1
         print("Стало: ", s[p], "\n")
+        count_m += 1
+print("Мутировала {} особь(ей)".format(count_m), "\n")
 
 #новый подсчет генов
 s_fit = [sum(s[i]) for i  in range(len(s))]
