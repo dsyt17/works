@@ -1,0 +1,28 @@
+C:\Users\Игорь\Desktop\4.Data\bin\Debug\netcoreapp3.1\4.Data.exe
+C:\Users\Игорь\Desktop\4.Data\bin\Debug\netcoreapp3.1\4.Data.deps.json
+C:\Users\Игорь\Desktop\4.Data\bin\Debug\netcoreapp3.1\4.Data.runtimeconfig.json
+C:\Users\Игорь\Desktop\4.Data\bin\Debug\netcoreapp3.1\4.Data.runtimeconfig.dev.json
+C:\Users\Игорь\Desktop\4.Data\bin\Debug\netcoreapp3.1\4.Data.dll
+C:\Users\Игорь\Desktop\4.Data\bin\Debug\netcoreapp3.1\4.Data.pdb
+C:\Users\Игорь\Desktop\4.Data\obj\Debug\netcoreapp3.1\4.Data.csproj.AssemblyReference.cache
+C:\Users\Игорь\Desktop\4.Data\obj\Debug\netcoreapp3.1\4.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Игорь\Desktop\4.Data\obj\Debug\netcoreapp3.1\4.Data.AssemblyInfoInputs.cache
+C:\Users\Игорь\Desktop\4.Data\obj\Debug\netcoreapp3.1\4.Data.AssemblyInfo.cs
+C:\Users\Игорь\Desktop\4.Data\obj\Debug\netcoreapp3.1\4.Data.csproj.CoreCompileInputs.cache
+C:\Users\Игорь\Desktop\4.Data\obj\Debug\netcoreapp3.1\4.Data.dll
+C:\Users\Игорь\Desktop\4.Data\obj\Debug\netcoreapp3.1\4.Data.pdb
+C:\Users\Игорь\Desktop\4.Data\obj\Debug\netcoreapp3.1\4.Data.genruntimeconfig.cache
+E:\work 3\c#\c#\7.4.Data\bin\Debug\netcoreapp3.1\4.Data.exe
+E:\work 3\c#\c#\7.4.Data\bin\Debug\netcoreapp3.1\4.Data.deps.json
+E:\work 3\c#\c#\7.4.Data\bin\Debug\netcoreapp3.1\4.Data.runtimeconfig.json
+E:\work 3\c#\c#\7.4.Data\bin\Debug\netcoreapp3.1\4.Data.runtimeconfig.dev.json
+E:\work 3\c#\c#\7.4.Data\bin\Debug\netcoreapp3.1\4.Data.dll
+E:\work 3\c#\c#\7.4.Data\bin\Debug\netcoreapp3.1\4.Data.pdb
+E:\work 3\c#\c#\7.4.Data\obj\Debug\netcoreapp3.1\4.Data.csproj.AssemblyReference.cache
+E:\work 3\c#\c#\7.4.Data\obj\Debug\netcoreapp3.1\4.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\work 3\c#\c#\7.4.Data\obj\Debug\netcoreapp3.1\4.Data.AssemblyInfoInputs.cache
+E:\work 3\c#\c#\7.4.Data\obj\Debug\netcoreapp3.1\4.Data.AssemblyInfo.cs
+E:\work 3\c#\c#\7.4.Data\obj\Debug\netcoreapp3.1\4.Data.csproj.CoreCompileInputs.cache
+E:\work 3\c#\c#\7.4.Data\obj\Debug\netcoreapp3.1\4.Data.dll
+E:\work 3\c#\c#\7.4.Data\obj\Debug\netcoreapp3.1\4.Data.pdb
+E:\work 3\c#\c#\7.4.Data\obj\Debug\netcoreapp3.1\4.Data.genruntimeconfig.cache

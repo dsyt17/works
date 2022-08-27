@@ -1,0 +1,14 @@
+C:\Users\Игорь\Desktop\lr5\bin\Debug\netcoreapp3.0\lr5.exe
+C:\Users\Игорь\Desktop\lr5\bin\Debug\netcoreapp3.0\lr5.deps.json
+C:\Users\Игорь\Desktop\lr5\bin\Debug\netcoreapp3.0\lr5.runtimeconfig.json
+C:\Users\Игорь\Desktop\lr5\bin\Debug\netcoreapp3.0\lr5.runtimeconfig.dev.json
+C:\Users\Игорь\Desktop\lr5\bin\Debug\netcoreapp3.0\lr5.dll
+C:\Users\Игорь\Desktop\lr5\bin\Debug\netcoreapp3.0\lr5.pdb
+C:\Users\Игорь\Desktop\lr5\obj\Debug\netcoreapp3.0\lr5.csproj.AssemblyReference.cache
+C:\Users\Игорь\Desktop\lr5\obj\Debug\netcoreapp3.0\lr5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Игорь\Desktop\lr5\obj\Debug\netcoreapp3.0\lr5.AssemblyInfoInputs.cache
+C:\Users\Игорь\Desktop\lr5\obj\Debug\netcoreapp3.0\lr5.AssemblyInfo.cs
+C:\Users\Игорь\Desktop\lr5\obj\Debug\netcoreapp3.0\lr5.csproj.CoreCompileInputs.cache
+C:\Users\Игорь\Desktop\lr5\obj\Debug\netcoreapp3.0\lr5.dll
+C:\Users\Игорь\Desktop\lr5\obj\Debug\netcoreapp3.0\lr5.pdb
+C:\Users\Игорь\Desktop\lr5\obj\Debug\netcoreapp3.0\lr5.genruntimeconfig.cache
