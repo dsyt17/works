@@ -1,0 +1,42 @@
+apt-get upgrade
+apt install nginx  php-fpm php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl
+sudo apt install mysql-server
+sudo mysql_secure_installation
+
+Had the same error, solved it by running sudo mysql which logged me in as root without a password, then I ran ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';
+
+Following this I was able to run mysql_secure_installation again 
+
+mysql -u root -p
+
+mysql: CREATE DATABASE new_db;
+mysql: CREATE USER `ndbadmin` @` localhost` IDENTIFIED WITH mysql_native_password BY '0urPassW0rdHeRe!1';
+mysql: GRANT ALL ON new_db. * TO `ndbadmin` @`localhost`;
+mysql: FLUSH PRIVILEGES;
+
+cd /var/www/
+sudo wget -c http://wordpress.org/latest.tar.gz
+sudo tar -xzvf latest.tar.gz 
+cd wordpress/
+sudo cp wp-config-sample.php wp-config.php
+sudo nano wp-config.php 
+sudo chown www-data:www-data -R ./wordpress/
+cd /etc/nginx/sites-available/
+sudo mv default ~/
+
+
+
+
+sudo ln -s /etc/nginx/sites-available/wp.conf /etc/nginx/sites-enabled/wp.conf
+
+sudo apt install libapache2-mod-php
+
+$ sudo systemctl enable --now mysql
+$ sudo systemctl enable --now apache2
+sudo ufw allow in "Apache Full"
+https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04-ru
+
+
+sudo apt -y install php-mbstring
+sudo apt -y install phpmyadmin
+sudo apt install openssh-server
