@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.element {
+  box-sizing: border-box;
+  height: 30px;
+  max-height: 30px;
+  margin-top: 10px;
+  border: 2px solid rgb(157, 193, 255);
+  border-radius: 5px;
+}
+.btn {
+  background-color: rgb(155, 225, 255);
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  background-color: rgb(182, 224, 238);
+}
