@@ -1,6 +1,6 @@
 import cheerio from "cheerio";
 import fs from "fs";
-// import mysql from "mysql2";
+import mysql from "mysql2";
 
 // https://www.dx.com/p/blackview-p10000-pro-octa-core-5-99-mobile-phone-2002771.html#.Y4HxmnYzZD8
 
@@ -55,7 +55,7 @@ const parse = () => {
   let flag = true;
   attrValues.forEach((e, i) => {
     if ($(attrValues[i]).hasClass("pinfo-attr-color")) {
-      flag && item.attributes[1].push("There has some colors...");
+      flag && item.attributes[1].push("Some Colors");
       flag = false;
       return;
     }
@@ -86,9 +86,10 @@ const writeToMySql = async (item) => {
 
     var sql =
       "INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) " +
-      `VALUES (NULL, '1', '${date}', '${date}', '<!-- wp:paragraph -->\r\n<p><strong>Текущая цена:</strong> ${
+      `VALUES (NULL, '1', '${date}', '${date}', '<!-- wp:paragraph -->\r\n<p><a href=${item.link}>Ссылка на товар</a></p>
+      \r\n<p><strong>Текущая цена:</strong> ${
         item.current_price
-      }</p>\r\n<p><a href=${item.link}>Ссылка на товар</a></p>${
+      }</p>${
         item.full_price &&
         `\r\n<p><strong>Цена без скидки:</strong> ${item.full_price}</p>`
       }\r\n<p>Рейтинг: ${item.raiting ? item.raiting : "0"} Из ${
@@ -97,9 +98,10 @@ const writeToMySql = async (item) => {
         item.wish_list
       } </p>\r\n<p>Доставка: ${
         item.shippment
-      }</p>\r\n<p>Атрибуты: ${item.attributes.map(
-        (e, i) => `<p>${e.map((elem) => `<span>${elem}</span>`)}</p>`
-      )}</p>\r\n<img src="${item.image}"></img>\r\n<!-- /wp:paragraph -->', '${
+      }</p>\r\n<p>Атрибуты: 
+      ${item.attributes[0].map((elem) => ` <span>${elem.replace(':', '')}</span>`)} /
+      ${item.attributes[1].map((elem) => ` <span>${elem}</span>`)}
+      </p>\r\n<img src="${item.image}"></img>\r\n<!-- /wp:paragraph -->', '${
         item.title
       }', '', 'publish', 'open', 'open', '', '${Math.floor(
         Math.random() * 100000000000000001
@@ -122,4 +124,4 @@ const writeToMySql = async (item) => {
 };
 
 const item = parse();
-// writeToMySql(item)
+writeToMySql(item)
