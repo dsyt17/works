@@ -5,7 +5,7 @@ import mysql from "mysql2";
 // https://www.dx.com/p/blackview-p10000-pro-octa-core-5-99-mobile-phone-2002771.html#.Y4HxmnYzZD8
 
 const parse = () => {
-  const data = fs.readFileSync("responce_html.txt", "utf8");
+  const data = fs.readFileSync("response_html.txt", "utf8");
 
   let $ = cheerio.load(data);
   $("#productDescriptBox br").remove();

@@ -7,7 +7,7 @@ const url = system.args[1];
 page.onLoadFinished = function () {
     console.log(url);
     console.log("Page loadead");
-    fs.write("responce_html.txt", page.content, "w");
+    fs.write("response_html.txt", page.content, "w");
     phantom.exit();
 };
 
