@@ -1,0 +1,1 @@
+https://neurohive.io/ru/tutorial/simple-gan-python-keras/
