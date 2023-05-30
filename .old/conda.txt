@@ -1,0 +1,5 @@
+conda create -n dsyt python=3.10
+conda env list
+conda activate your_environment_name
+pip install ipykernel
+python -m ipykernel install --user --name dsyt --display-name "dsyt"

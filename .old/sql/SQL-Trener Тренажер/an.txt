@@ -1,0 +1,16 @@
+Сколько зачетов предусмотрено по дисциплине «Иностранный язык»?
+select count(control)  from uchplan where discipline='Иностранный язык' and control like '%З%'
+Преподавание каких дисциплин обеспечивает формирование компетенции ПК11?
+Select UchPlan.Discipline from (UchPlan
+Inner join DiscForComp ON UchPlan.Discipline=DiscForComp.Discipline)
+Inner join Competitions ON DiscForComp.Comp=Competitions.FGOSCompt
+Where FGOSCompt="ПК11"
+Group by UchPlan.Discipline
+
+Вывести названия произведений, у которых более двух авторов?
+Select BName from books
+Inner join autors ON books.idB=autors.book
+Group by BName 
+Having Count(person)>2
+Для классов кораблей, калибр орудий которых не менее 16 дюймов, укажите класс и страну. 
+Select class, country from classes where bore >= 16

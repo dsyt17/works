@@ -1,0 +1,14 @@
+E:\work 3\c#\c#\lr6\bin\Debug\netcoreapp3.1\lr6.exe
+E:\work 3\c#\c#\lr6\bin\Debug\netcoreapp3.1\lr6.deps.json
+E:\work 3\c#\c#\lr6\bin\Debug\netcoreapp3.1\lr6.runtimeconfig.json
+E:\work 3\c#\c#\lr6\bin\Debug\netcoreapp3.1\lr6.runtimeconfig.dev.json
+E:\work 3\c#\c#\lr6\bin\Debug\netcoreapp3.1\lr6.dll
+E:\work 3\c#\c#\lr6\bin\Debug\netcoreapp3.1\lr6.pdb
+E:\work 3\c#\c#\lr6\obj\Debug\netcoreapp3.1\lr6.csproj.AssemblyReference.cache
+E:\work 3\c#\c#\lr6\obj\Debug\netcoreapp3.1\lr6.GeneratedMSBuildEditorConfig.editorconfig
+E:\work 3\c#\c#\lr6\obj\Debug\netcoreapp3.1\lr6.AssemblyInfoInputs.cache
+E:\work 3\c#\c#\lr6\obj\Debug\netcoreapp3.1\lr6.AssemblyInfo.cs
+E:\work 3\c#\c#\lr6\obj\Debug\netcoreapp3.1\lr6.csproj.CoreCompileInputs.cache
+E:\work 3\c#\c#\lr6\obj\Debug\netcoreapp3.1\lr6.dll
+E:\work 3\c#\c#\lr6\obj\Debug\netcoreapp3.1\lr6.pdb
+E:\work 3\c#\c#\lr6\obj\Debug\netcoreapp3.1\lr6.genruntimeconfig.cache

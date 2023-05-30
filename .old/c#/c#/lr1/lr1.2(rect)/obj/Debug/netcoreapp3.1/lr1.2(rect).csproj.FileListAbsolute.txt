@@ -1,0 +1,14 @@
+E:\work 3\c#\lr1.2(rect)\bin\Debug\netcoreapp3.1\lr1.2(rect).exe
+E:\work 3\c#\lr1.2(rect)\bin\Debug\netcoreapp3.1\lr1.2(rect).deps.json
+E:\work 3\c#\lr1.2(rect)\bin\Debug\netcoreapp3.1\lr1.2(rect).runtimeconfig.json
+E:\work 3\c#\lr1.2(rect)\bin\Debug\netcoreapp3.1\lr1.2(rect).runtimeconfig.dev.json
+E:\work 3\c#\lr1.2(rect)\bin\Debug\netcoreapp3.1\lr1.2(rect).dll
+E:\work 3\c#\lr1.2(rect)\bin\Debug\netcoreapp3.1\lr1.2(rect).pdb
+E:\work 3\c#\lr1.2(rect)\obj\Debug\netcoreapp3.1\lr1.2(rect).csproj.AssemblyReference.cache
+E:\work 3\c#\lr1.2(rect)\obj\Debug\netcoreapp3.1\lr1.2(rect).GeneratedMSBuildEditorConfig.editorconfig
+E:\work 3\c#\lr1.2(rect)\obj\Debug\netcoreapp3.1\lr1.2(rect).AssemblyInfoInputs.cache
+E:\work 3\c#\lr1.2(rect)\obj\Debug\netcoreapp3.1\lr1.2(rect).AssemblyInfo.cs
+E:\work 3\c#\lr1.2(rect)\obj\Debug\netcoreapp3.1\lr1.2(rect).csproj.CoreCompileInputs.cache
+E:\work 3\c#\lr1.2(rect)\obj\Debug\netcoreapp3.1\lr1.2(rect).dll
+E:\work 3\c#\lr1.2(rect)\obj\Debug\netcoreapp3.1\lr1.2(rect).pdb
+E:\work 3\c#\lr1.2(rect)\obj\Debug\netcoreapp3.1\lr1.2(rect).genruntimeconfig.cache

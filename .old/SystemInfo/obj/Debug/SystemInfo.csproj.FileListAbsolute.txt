@@ -1,0 +1,10 @@
+C:\Users\Игорь\Desktop\SystemInfo\bin\Debug\SystemInfo.exe.config
+C:\Users\Игорь\Desktop\SystemInfo\bin\Debug\SystemInfo.exe
+C:\Users\Игорь\Desktop\SystemInfo\bin\Debug\SystemInfo.pdb
+C:\Users\Игорь\Desktop\SystemInfo\obj\Debug\SystemInfo.csproj.AssemblyReference.cache
+C:\Users\Игорь\Desktop\SystemInfo\obj\Debug\SystemInfo.Form1.resources
+C:\Users\Игорь\Desktop\SystemInfo\obj\Debug\SystemInfo.Properties.Resources.resources
+C:\Users\Игорь\Desktop\SystemInfo\obj\Debug\SystemInfo.csproj.GenerateResource.cache
+C:\Users\Игорь\Desktop\SystemInfo\obj\Debug\SystemInfo.csproj.CoreCompileInputs.cache
+C:\Users\Игорь\Desktop\SystemInfo\obj\Debug\SystemInfo.exe
+C:\Users\Игорь\Desktop\SystemInfo\obj\Debug\SystemInfo.pdb
