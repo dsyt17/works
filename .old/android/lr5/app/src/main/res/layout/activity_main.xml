@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    tools:context=".MainActivity"
+    a:orientation="vertical"
+
+    >
+
+    <TextView
+        a:id="@+id/header_main"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:text="@string/info"
+        a:textAlignment="center"
+        a:textSize="30sp"
+        a:layout_margin="10dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        a:id="@+id/RecyclerView"
+        a:layout_width="match_parent"
+        a:layout_height="0dp"
+        a:layout_weight="1"
+        a:layout_marginHorizontal="10dp"
+        />
+    <Button
+        a:id="@+id/add_button"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:onClick="onClickAddButtonMain"
+        a:layout_marginStart="10dp"
+        a:layout_marginEnd="10dp"
+        a:clickable="true"
+        a:focusable="true"
+        a:text="@string/add"
+        a:layout_gravity="center_horizontal"
+        a:layout_marginVertical="10dp"
+        />
+
+</LinearLayout>

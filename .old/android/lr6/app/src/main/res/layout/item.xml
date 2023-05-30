@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    a:orientation="vertical"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:id="@+id/mainLayout">
+
+    <androidx.cardview.widget.CardView
+        a:id="@+id/card_view"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="12dp">
+
+        <LinearLayout
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:orientation="horizontal"
+            a:layout_margin="5dp"
+            >
+
+            <TextView
+                a:id="@+id/corpID_txt"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="@string/test_counter"
+                a:textColor="#000"
+                a:textSize="30sp"
+                a:textStyle="bold"
+
+                a:layout_gravity = "center_vertical"
+                />
+            <LinearLayout
+                a:layout_width="0dp"
+                a:layout_weight="1"
+                a:layout_height="wrap_content"
+                a:orientation="vertical"
+                a:layout_marginStart="5dp"
+                >
+
+                <TextView
+                    a:id="@+id/corpProducts_txt"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/test_corp_products"
+
+                    a:textStyle="bold"
+                    a:textSize="20sp"
+                    />
+
+                <TextView
+                    a:id="@+id/corpName_txt"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/test_corp_name"
+                    a:textStyle="normal"
+
+                    a:textSize="12sp"
+                    a:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    a:id="@+id/corpFounders_txt"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginTop="5dp"
+                    a:text="@string/test_corp_founders"
+
+                    a:textSize="12sp"
+                    />
+
+
+
+                <TextView
+                    a:id="@+id/corpPrice_txt"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginTop="5dp"
+                    a:text="@string/test_corp_price"
+
+                    a:textSize="12sp"
+                    />
+                <TextView
+                    a:id="@+id/corpCategory_txt"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginTop="5dp"
+                    a:text="@string/test_corp_category"
+
+                    a:textStyle="italic"
+                    a:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

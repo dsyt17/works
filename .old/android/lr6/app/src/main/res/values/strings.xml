@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">lr5</string>
+    <string name="info">Данные о продуктах</string>
+    <string name="products">Продукт</string>
+    <string name="corp_name">Компания</string>
+    <string name="corp_products">Продукты</string>
+    <string name="corp_founders">Основатели</string>
+    <string name="corporations">Компания</string>
+    <string name="founders">Основатель</string>
+    <string name="add">Добавить</string>
+    <string name="corporation">Данные о компании</string>
+    <string name="clear">Очистить</string>
+    <string name="update">Обновить</string>
+    <string name="delete">Удалить</string>
+    <string name="test_counter">1</string>
+    <string name="test_corp_name">Name</string>
+    <string name="test_corp_founders">Founders</string>
+    <string name="test_corp_products">Products</string>
+    <string name="company_add_head">Добавление компании</string>
+    <string name="company_change_head">Изменение данных о компании</string>
+    <string name="search_edit_text">Текст запроса</string>
+    <string name="search">Поиск</string>
+    <string name="test_corp_price">Price</string>
+    <string name="test_corp_category">Category</string>
+    <string name="price">Стоимость продуктов</string>
+    <string name="price2">Стоимость</string>
+    <string name="category">Категория</string>
+    <string name="sort">Сортировать</string>
+    <string name="group">Группировать</string>
+    <string name="price_short">Стоим.</string>
+    <string name="back">Назад</string>
+    <string name="sort_question">По какой категории сортировка?</string>
+    <string name="apply">Подтвердить</string>
+    <string name="full_price_info">Общая стоимость: </string>
+    <string name="avg_price_info">Средняя стоимость: </string>
+    <string name="search_results">Результаты поиска</string>
+</resources>

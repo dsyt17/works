@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    a:id="@+id/main_linear_activity_update"
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:t="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    t:context=".change_company"
+    a:orientation="vertical"
+    >
+    <TextView
+        a:id="@+id/header_update"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:text="@string/company_change_head"
+        a:textAlignment="center"
+        a:textSize="34sp"
+        a:layout_gravity="center_horizontal"
+        a:layout_margin="10dp"
+        />
+
+    <EditText
+        a:id="@+id/editTextCorpName"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:hint="@string/corporations"
+        a:importantForAutofill="no"
+        a:inputType="none"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:layout_marginHorizontal="10dp"
+        />
+
+    <EditText
+        a:id="@+id/editTextCorpFounders"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:hint="@string/founders"
+        a:importantForAutofill="no"
+        a:inputType="textPersonName"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:layout_margin="10dp"
+        />
+
+    <EditText
+        a:id="@+id/editTextCorpProducts"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:hint="@string/products"
+        a:importantForAutofill="no"
+        a:inputType="none"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:layout_marginHorizontal="10dp"
+        />
+<LinearLayout
+    a:layout_width="wrap_content"
+    a:layout_height="wrap_content"
+    a:orientation="vertical"
+    a:layout_gravity="center"
+    a:layout_marginTop="150dp">
+
+    <Button
+        a:id="@+id/clear_button"
+        a:textSize="20sp"
+        a:gravity="center"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:onClick="onClickClear"
+        a:text="@string/clear"
+        a:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        a:id="@+id/update_button"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:text="@string/update"
+        a:textSize="20sp"
+        a:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        a:id="@+id/delete_button"
+        a:layout_width="155dp"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center_horizontal"
+
+        a:gravity="center"
+        a:text="@string/delete"
+        a:textSize="20sp" />
+</LinearLayout>
+
+
+</LinearLayout>

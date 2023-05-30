@@ -1,0 +1,91 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Data.Win.ADODB, Vcl.Grids,
+  Vcl.DBGrids, Vcl.StdCtrls, Vcl.CheckLst;
+
+type
+  TForm1 = class(TForm)
+    ADOConnection1: TADOConnection;
+    ADOQuery1: TADOQuery;
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
+    Button1: TButton;
+    DataSource1: TDataSource;
+    DBGrid1: TDBGrid;
+    Button2: TButton;
+    ComboBox3: TComboBox;
+    Button3: TButton;
+    Button4: TButton;
+    CheckListBox1: TCheckListBox;
+    GroupBox1: TGroupBox;
+    ComboBox4: TComboBox;
+    ComboBox5: TComboBox;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+
+implementation
+
+{$R *.dfm}
+
+uses Unit3;
+
+
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+adoquery1.Close;
+adoquery1.sql.Clear;
+adoquery1.sql.add('select [Страна].[Название], [Часть_света].[Часть_света] from [Страна], [Часть_света], [Климат] where [Страна].[Часть_света]=[Часть_света].[idPlace] '+
+' and [Часть_света].[Часть_света]=:param1 and [Страна].[Климат]=[Климат].[idClimate] and [Климат].[Тип_климата]=:param2');
+ADOQuery1.Parameters.ParamByName('Param1').Value:=combobox1.Text;
+ADOQuery1.Parameters.ParamByName('Param2').Value:=combobox2.Text;
+adoquery1.open;
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+adoquery1.Close;
+adoquery1.sql.Clear;
+adoquery1.sql.add('SELECT Страна.Название, Сезоны.Сезон FROM Страна INNER JOIN (Сезоны INNER JOIN Рек_сезон ON Сезоны.[idSeason] = Рек_сезон.[idSeason])'+
+' ON Страна.[idCountry] = Рек_сезон.[idCountry] where Сезоны.Сезон=:Param1 or Сезоны.Сезон=:Param2;');
+ADOQuery1.Parameters.ParamByName('Param1').Value:=combobox3.Text;
+ADOQuery1.Parameters.ParamByName('Param2').Value:=combobox5.Text;
+adoquery1.open;
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+adoquery1.Close;
+adoquery1.sql.Clear;
+adoquery1.sql.add('SELECT Страна.Название, Часть_света.Часть_света, Сезоны.Сезон, Климат.Тип_климата '+
+'FROM (Часть_света INNER JOIN (Климат INNER JOIN Страна ON Климат.[idClimate] = Страна.[Климат]) '+' ON Часть_света.[idPlace] = Страна.[Часть_света]) INNER JOIN (Сезоны INNER JOIN Рек_сезон ON Сезоны.[idSeason] = Рек_сезон.[idSeason]) ON Страна.[idCountry] = Рек_сезон.[idCountry]'+
+'where (Частьсвета.Часть_света=:param1 or Часть_света.Часть_света=:param4) and Сезоны.Сезон=:param2 and [Климат].[Тип_климата]=:param3');
+ADOQuery1.Parameters.ParamByName('Param1').Value:=combobox1.Text;
+ADOQuery1.Parameters.ParamByName('Param2').Value:=combobox3.Text;
+ADOQuery1.Parameters.ParamByName('Param3').Value:=combobox2.Text;
+ADOQuery1.Parameters.ParamByName('Param4').Value:=combobox4.Text;
+adoquery1.open;
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+Form3.ShowModal;
+end;
+
+end.

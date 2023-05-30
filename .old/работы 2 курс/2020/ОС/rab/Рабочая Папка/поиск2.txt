@@ -1,0 +1,9 @@
+C:\Windows\System32\ru-RU\comexp.msc - Документ Microsoft Common Console 
+C:\Windows\explorer.exe - проводник
+glossary.chm - нет
+C:\Program Files\Common Files\microsoft shared\EQUATION\eqnedt32.exe - equation editor
+hourglas.ani - нет
+C:\Windows\WinSxS\amd64_microsoft-windows-i..etexplorer-optional_31bf3856ad364e35_11.0.19041.1_none_8298e4b5b7fd2c26\iexplore.exe - веб браузер
+C:\Windows\notepad.exe - блокнот 
+C:\Windows\SysWOW64\taskmgr.exe - диспетчер задач
+C:\Windows\WinSxS\amd64_microsoft-windows-font-truetype-symbol_31bf3856ad364e35_10.0.19041.1_none_851573dbefae5612\symbol.ttf - файл шрифта

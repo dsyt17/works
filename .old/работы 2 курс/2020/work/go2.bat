@@ -1,0 +1,1 @@
+IF exist 1.txt (start notepad 1.txt) else echo 1.txt not exist

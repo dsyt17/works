@@ -1,0 +1,4 @@
+1. defrag
+2. SHUTDOWN
+б)Ctrl+z в) Ctrl+a г) Win+d
+4. развернуть на полный экран

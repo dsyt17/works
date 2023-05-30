@@ -1,7 +1,9 @@
 
 
 
-
+*.mdb
+*.jpg
+*.png
 **/node_modules
 
 

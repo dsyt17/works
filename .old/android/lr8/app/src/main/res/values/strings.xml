@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">lr5</string>
+    <string name="info">Данные о продуктах</string>
+    <string name="products">Продукт</string>
+    <string name="corp_name">Компания</string>
+    <string name="corp_products">Продукты</string>
+    <string name="corp_founders">Основатели</string>
+    <string name="corporations">Компания</string>
+    <string name="founders">Основатель</string>
+    <string name="add">Добавить</string>
+    <string name="corporation">Данные о компании</string>
+    <string name="clear">Очистить</string>
+    <string name="update">Обновить</string>
+    <string name="delete">Удалить</string>
+    <string name="test_counter">1</string>
+    <string name="test_corp_name">Name</string>
+    <string name="test_corp_founders">Founders</string>
+    <string name="test_corp_products">Products</string>
+    <string name="company_add_head">Добавление компании</string>
+    <string name="company_change_head">Изменение данных о компании</string>
+    <string name="search_edit_text">Текст запроса</string>
+    <string name="search">Поиск</string>
+    <string name="test_corp_price">Price</string>
+    <string name="test_corp_category">Category</string>
+    <string name="price">Стоимость продуктов</string>
+    <string name="price2">Стоимость</string>
+    <string name="category">Категория</string>
+    <string name="sort">Сортировать</string>
+    <string name="group">Группировать</string>
+    <string name="price_short">Стоим.</string>
+    <string name="back">Назад</string>
+    <string name="sort_question">По какой категории сортировка?</string>
+    <string name="apply">Подтвердить</string>
+    <string name="full_price_info">Общая стоимость: </string>
+    <string name="avg_price_info">Средняя стоимость: </string>
+    <string name="search_results">Результаты поиска</string>
+    <string name="login">Авторизация</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_hint">Логин</string>
+    <string name="login_button">Вход</string>
+    <string name="registration_button">Регистрация</string>
+    <string name="register_head">Регистрация</string>
+    <string name="email_hint">Email</string>
+    <string name="application">Подтверждение</string>
+    <string name="email_error_message">Неверный формат ввода почты</string>
+    <string name="email_true_message">Email введён верно</string>
+    <string name="email_hint_message">example@mail.com</string>
+    <string name="login_error_message"><![CDATA[>=5 латинских символов]]></string>
+    <string name="login_exists_message"><![CDATA[Такой логин уже существует]]></string>
+    <string name="login_true_message">Логин введён верно</string>
+    <string name="login_true_and_exist_message">Логин введён верно и существует</string>
+    <string name="login_true_but_not_exist_message">Логин введён верно, но не существует</string>
+    <string name="password_error_message"><![CDATA[>=8 символов]]></string>
+    <string name="password_true_message">Пароль введён верно</string>
+</resources>

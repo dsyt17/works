@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:t="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    t:context=".add_company"
+    a:orientation="vertical"
+    >
+    <TextView
+        a:id="@+id/edit_head"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:text="@string/company_add_head"
+        a:textAlignment="center"
+        a:textSize="34sp"
+        a:layout_margin="10dp"
+        />
+
+    <EditText
+        a:id="@+id/editTextFIO"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginHorizontal="10dp"
+
+        a:gravity="center"
+        a:hint="@string/corporations"
+        a:inputType="none"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:importantForAutofill="no" />
+
+    <EditText
+        a:id="@+id/editTextPl"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_margin="10dp"
+
+        a:gravity="center"
+        a:hint="@string/founders"
+        a:inputType="textPersonName"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:importantForAutofill="no" />
+
+    <EditText
+        a:id="@+id/editTextIDE"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginHorizontal="10dp"
+
+        a:gravity="center"
+        a:hint="@string/products"
+        a:importantForAutofill="no"
+        a:inputType="none"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"></EditText>
+
+    <Button
+        a:id="@+id/buttonClean2"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:onClick="onClickAddButton"
+        a:text="@string/add"
+        a:textSize="20sp"
+        a:layout_marginTop="100dp"
+        a:layout_gravity="center_horizontal"
+
+        a:layout_below="@id/editTextIDE"
+        />
+
+    <Button
+        a:id="@+id/buttonClean"
+        a:layout_width="293dp"
+
+        a:layout_height="wrap_content"
+        a:layout_gravity="center_horizontal"
+        a:layout_marginHorizontal="10dp"
+        a:layout_below="@id/buttonClean2"
+        a:gravity="center"
+        a:onClick="onClickClear"
+        a:text="@string/clear"
+        a:textSize="20sp" />
+
+</LinearLayout>

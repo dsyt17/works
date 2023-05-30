@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Myg</string>
+    <string name="dsyt">dsyt</string>
+    <string name="button">Button</string>
+    <string name="a_b_c">Ведите коэффиценты a, b,c:</string>
+    <string name="textViev2">Результат:</string>
+</resources>

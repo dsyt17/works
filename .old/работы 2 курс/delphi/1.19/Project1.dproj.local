@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021.03.15 16:55:08.771,=D:\rad\projects\Unit1.pas</Transaction>
+    <Transaction>2021.03.15 16:56:48.842,D:\rad\projects\1.19\Unit1.pas=D:\rad\projects\Unit1.pas</Transaction>
+    <Transaction>2021.03.15 16:56:48.842,D:\rad\projects\1.19\Unit1.dfm=D:\rad\projects\Unit1.dfm</Transaction>
+    <Transaction>2021.03.15 16:56:50.186,D:\rad\projects\1.19\Project1.dproj=D:\rad\projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:t="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    t:context=".add_company"
+    a:orientation="vertical"
+    >
+    <TextView
+        a:id="@+id/edit_head"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:text="@string/company_add_head"
+        a:textAlignment="center"
+        a:textSize="34sp"
+        a:layout_margin="10dp"
+        />
+
+    <EditText
+        a:id="@+id/editTextCorpCompany"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginHorizontal="10dp"
+
+        a:gravity="center"
+        a:hint="@string/corporations"
+        a:inputType="none"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:importantForAutofill="no" />
+
+    <EditText
+        a:id="@+id/editTextCorpFounder"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_margin="10dp"
+
+        a:gravity="center"
+        a:hint="@string/founders"
+        a:inputType="textPersonName"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:importantForAutofill="no" />
+
+    <EditText
+        a:id="@+id/editTextCorpProduct"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginHorizontal="10dp"
+
+        a:gravity="center"
+        a:hint="@string/products"
+        a:importantForAutofill="no"
+        a:inputType="none"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"></EditText>
+
+    <EditText
+        a:id="@+id/editTextCorpPrice"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:hint="@string/price"
+        a:importantForAutofill="no"
+        a:inputType="none"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:layout_margin="10dp"
+        />
+
+    <EditText
+        a:id="@+id/editTextCorpCategory"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:hint="@string/category"
+        a:importantForAutofill="no"
+        a:inputType="none"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:layout_marginHorizontal="10dp"
+        />
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="horizontal"
+        a:layout_weight="2"
+        a:layout_below="@id/editTextCorpCategory">
+
+    <Button
+        a:id="@+id/buttonClean2"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:onClick="onClickAddButton"
+        a:text="@string/add"
+        a:textSize="20sp"
+        a:layout_weight="1"
+        a:layout_marginStart="10dp"
+        a:layout_marginEnd="5dp"
+        />
+
+    <Button
+        a:id="@+id/buttonClean"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_below="@id/buttonClean2"
+        a:onClick="onClickClear"
+        a:text="@string/clear"
+        a:textSize="20sp"
+        a:layout_weight="1"
+        a:layout_marginStart="5dp"
+        a:layout_marginEnd="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

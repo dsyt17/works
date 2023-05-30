@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:orientation="vertical"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:id="@+id/mainLayout">
+
+    <androidx.cardview.widget.CardView
+        a:id="@+id/card_view"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:padding="12dp">
+
+            <TextView
+                a:id="@+id/corpID_txt"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="@string/test_counter"
+                a:textColor="#000"
+                a:textSize="30sp"
+                a:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                a:id="@+id/corpName_txt"
+                a:layout_width="350dp"
+                a:layout_height="22dp"
+                a:layout_marginStart="16dp"
+                a:text="@string/test_corp_name"
+                a:textSize="15sp"
+                a:textStyle="bold|italic"
+                app:layout_constraintStart_toEndOf="@+id/corpID_txt"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                a:id="@+id/corpFounders_txt"
+                a:layout_width="350dp"
+                a:layout_height="21dp"
+                a:layout_marginTop="5dp"
+                a:text="@string/test_corp_founders"
+                app:layout_constraintStart_toStartOf="@+id/corpName_txt"
+                app:layout_constraintTop_toBottomOf="@+id/corpName_txt" />
+
+            <TextView
+                a:id="@+id/corpProducts_txt"
+                a:layout_width="350dp"
+                a:layout_height="23dp"
+                a:layout_marginTop="5dp"
+                a:text="@string/test_corp_products"
+                app:layout_constraintStart_toStartOf="@+id/corpFounders_txt"
+                app:layout_constraintTop_toBottomOf="@+id/corpFounders_txt" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

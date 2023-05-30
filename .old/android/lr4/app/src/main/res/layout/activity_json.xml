@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:orientation="vertical"
+    a:gravity="top"
+
+    >
+
+    <TextView
+        a:id="@+id/json_head"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="@string/json_head_visual"
+        a:layout_marginTop="15dp"
+        a:layout_marginHorizontal="15dp"
+        a:layout_marginBottom="0dp"
+        a:textSize="20sp"
+        a:gravity="center"/>
+
+    <FrameLayout
+        a:id="@+id/frame_layout"
+        a:layout_width="match_parent"
+        a:layout_height="0dp"
+        a:layout_weight="1"
+        >
+        <ListView
+            a:id="@+id/listview_student"
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_margin="15dp"
+            a:textSize="15sp"
+            a:background="@android:color/transparent"
+            a:divider="#CCCCCC"
+            a:dividerHeight="1dp"
+            a:visibility="visible"
+            />
+        <EditText
+            a:id="@+id/editTextMultiLineJson"
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_gravity="top|start"
+            a:gravity="top|start"
+            a:visibility="invisible"
+            a:textSize="15sp"
+            a:inputType="textFilter|textMultiLine"
+            >
+        </EditText>
+    </FrameLayout>
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="horizontal">
+
+        <Button
+            a:id="@+id/push_button"
+            a:layout_width="0dp"
+            a:layout_weight="1"
+            a:layout_height="wrap_content"
+            a:layout_marginHorizontal="15dp"
+            a:layout_marginBottom="15dp"
+            a:text="@string/save_file"
+            a:textSize="12dp" />
+
+        <Button
+            a:id="@+id/update_button"
+            a:text="@string/update_from_file"
+            a:layout_width="0dp"
+            a:layout_weight="1"
+            a:layout_marginEnd="15dp"
+            a:layout_height="wrap_content"
+            a:textSize="12dp"
+            />
+        <Button
+            a:id="@+id/add_param_button"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_marginEnd="15dp"
+            a:layout_weight="1"
+            a:text="@string/add_parameter"
+            a:textSize="12dp" />
+    </LinearLayout>
+</LinearLayout>
