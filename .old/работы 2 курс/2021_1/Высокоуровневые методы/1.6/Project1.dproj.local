@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-  <Transactions>
-    <Transaction>2021.03.04 11:09:20.156,=E:\delphi\Unit1.pas</Transaction>
-    <Transaction>2021.03.04 11:10:05.502,E:\delphi\1.6\Unit1.dfm=E:\delphi\Unit1.dfm</Transaction>
-    <Transaction>2021.03.04 11:10:05.502,E:\delphi\1.6\Unit1.pas=E:\delphi\Unit1.pas</Transaction>
-    <Transaction>2021.03.04 11:10:06.961,E:\delphi\1.6\Project1.dproj=E:\delphi\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

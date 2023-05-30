@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
- 
-<project name="JavaApplication6" default="default" basedir=".">
-    <description>Builds, tests, and runs the project JavaApplication6.</description>
-    <import file="nbproject/build-impl.xml"/>
-
-    
-    
-</project>

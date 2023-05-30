@@ -1,8 +1,0 @@
-{
-  "type": "module",
-  "dependencies": {
-    "casperjs": "^1.1.4",
-    "cheerio": "^1.0.0-rc.12",
-    "mysql2": "^2.3.3"
-  }
-}
