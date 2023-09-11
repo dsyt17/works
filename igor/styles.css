@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+link {
+}
+
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 10px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+}
+
+td, tr, table, tbody {
+    border: 1px solid aliceblue;
+    margin: 0;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+td {
+    padding: 3px;
+    min-width: 150px;
+}
+
+td:last-child {
+    width: 40px;
+    min-width: 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    border: none;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.add {
+    &:hover {
+        background-color: aquamarine;
+        scale: 1.05;
+    }
+    transition: all 0.5s ease;
+}
+
+/* 
+.controls {
+    display: none;
+}
+
+.row:hover {
+    .controls {
+        display:  unset;
+    }
+} */
